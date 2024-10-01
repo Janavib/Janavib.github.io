@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact page" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="contact">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact-me.html" class="active">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-contact">
+        <h1>Contact Me</h1>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.559479421268!2d77.61376454056263!3d12.978895157037956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae168fda846509%3A0xa526e1f68a500b94!2sHalasuru%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1727800199978!5m2!1sen!2sin"
+          width="95%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <section class="contact-details">
+        <div>
+          <p>Call me<br /><strong>+918073088933</strong></p>
+        </div>
+        <div>
+          <p>Email me<br /><strong>janavi@gmail.com</strong></p>
+        </div>
+        <div>
+          <p>Meet me<br /><strong>Banglore</strong></p>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Feel Free To Message <span class="highlight">ME</span></h2>
+        <form action="" method="post">
+          <div class="row">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="text" name="phone" placeholder="Your Phone" required />
+          </div>
+          <div class="row">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your E-mail"
+              required
+            />
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="row">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>All rights reserved @ 2024</p>
+    </footer>
+  </body>
+</html>
