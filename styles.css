@@ -43,7 +43,7 @@ body {
   
   .intro {
     background-color: #179913;
-    padding: 40px 0;
+    padding: 25px 0;
     color: white;
   }
   
@@ -55,21 +55,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 60px 0;
   }
   
   .profile-photo {
     background-color: #dae000;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
   }
   
   .about {
     background-color: #e0e0e0;
-    padding: 20px;
-    height: 110px;
-    width: 300px;
+    padding: 40px;
+    height: 220px;
+    width: 500px;
   }
   .separator {
     width: 100%;
@@ -107,7 +107,7 @@ body {
   
   .intro-contact {
     background-color: #038362;
-    padding: 40px 0;
+    padding: 25px 0;
     color: white;
   }
   
@@ -194,23 +194,22 @@ body {
     background-color: darkorange;
   }
 
-body{
-  color: black;}
+  body{
+    color: black;}
+    
+  #blink_text{	
+    animation-name:blink;
+    
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:Infinite;
+    }
   
-#blink_text{	
-  animation-name:blink;
-  width:280px;
-  animation-duration:2s;
-  animation-timing-function:ease-in;
-  animation-iteration-count:Infinite;
-  }
-
-@keyframes blink{
-  0%{color:red;}
-  50%{color:white;}
-  100%{color:red;}
-}
-
+  @keyframes blink{
+    0%{color:red;}
+    50%{color:white;}
+    100%{color:red;}}
+  
   @media (max-width: 768px) {
     .contact-form form {
       width: 90%;
